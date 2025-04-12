@@ -1,0 +1,436 @@
+{
+  "file_paths": [
+    "training_data\\training_data_20250331_134549.pkl"
+  ],
+  "feature_importance": {
+    "produit_parts": {
+      "12000 BTU CSH": [
+        "VERIFICATION DES FUITES"
+      ],
+      "ALL IN ONE DUEL CORE": [
+        "REPARATION",
+        "VERIFICATION TV"
+      ],
+      "ARMOIRE IAC-F48TAW TROPICA-INT": [
+        "INTERVENTION A DOMICILE TYPE 1",
+        "VERIFICATION DES FUITES",
+        "INSTALATION CLIM 48000 CLIM",
+        "CHARGE DE FREON CLIM 48000 BTU"
+      ],
+      "AZAO 12KT1 INVERTER R410A-INT": [
+        "INSTALATION CLIM 12000 CLIM",
+        "INTERVENTION A DOMICILE TYPE 1"
+      ],
+      "AZAO+ 12KT3 INVERTER R410A-INT": [
+        "INSTALATION CLIM 12000 CLIM"
+      ],
+      "AZAO+ 18KT3 INVERTER R410A-INT": [
+        "INSTALATION CLIM 18000 CLIM"
+      ],
+      "BCD 338": [
+        "CHANGE, DE LA RESISTANCE REF",
+        "REP. FONCTIONNEMENT URF",
+        "RESISTANCE REF 455+338"
+      ],
+      "BCD 400 B BLANC": [
+        "DEBOUCHAGE DE GAZ REF",
+        "CHARGE DE FREON REF",
+        "SOUDURE FUITE REF",
+        "COUVERT ARRIER 400L",
+        "CHANGE, COUVERT ARRIERE REF"
+      ],
+      "BCD 400 B NOIR": [],
+      "BCD 480 B BLANC": [
+        "CABINE 480L BLANC",
+        "FILTRE REF 480E",
+        "CHARGE DE FREON REF",
+        "CHANGE, DU CABINE REF",
+        "CHANGE, FILTRE REF",
+        "POIGNEE 480L GRIS REF",
+        "POIGNEE 480L GRIS CONG"
+      ],
+      "BCD 480 B NOIR": [
+        "CHANGE, FILTRE REF",
+        "CHANGE, COMPRESSEUR REF",
+        "FILTRE REF 480E",
+        "COUVERT ARRIERE 480L",
+        "COMPRESSEUR REF 480L R600",
+        "CHANGE, COUVERT ARRIERE REF",
+        "CHARGE DE FREON REF"
+      ],
+      "CF 100 BLANC": [
+        "CHARGE DE FREON REF",
+        "CHANGE, FILTRE REF",
+        "FILTRE REF 300L"
+      ],
+      "CF 255 BLANC": [
+        "FILTRE REF 480E",
+        "CHANGE, COMPRESSEUR REF",
+        "CHARGE DE FREON REF",
+        "CHANGE, FILTRE REF",
+        "COMPRESSEUR CONG 255L"
+      ],
+      "ECOSMART 12KG IR-WMBT12G": [
+        "REP. FONCTIONNEMENT ML"
+      ],
+      "ECOSMART 13KG GRIS": [
+        "REP. FONCTIONNEMENT ML"
+      ],
+      "G8060 BLACK": [],
+      "I350 BLACK GOLD": [
+        "REPARATION",
+        "BATTERIE I-350",
+        "CHANGEMENT BATTERIE"
+      ],
+      "I350 GOLD BLACK": [
+        "LCD I-350 2,4",
+        "CHANGEMENT BATTERIE",
+        "BATTERIE I-350"
+      ],
+      "IQA 12000 BTU": [
+        "INTERVENTION A DOMICILE TYPE 1",
+        "CHANGE, CAPA COMPRESSEUR CLIM",
+        "INSTALATION CLIM 12000 CLIM",
+        "CONDENSEUR CLIM 18000 IQA",
+        "VERIFICATION DES FUITES"
+      ],
+      "IQA 12000 BTU -INT": [
+        "INSTALATION CLIM 18000 CLIM",
+        "INSTALATION CLIM 12000 CLIM",
+        "INTERVENTION A DOMICILE TYPE 1"
+      ],
+      "IQA 18000 BTU": [
+        "INTERVENTION A DOMICILE TYPE 1",
+        "CHARGE DE FREON CLIM 18000 BTU",
+        "VERIFICATION DES FUITES",
+        "INSTALATION CLIM 18000 CLIM",
+        "INSTALATION CLIM 12000 CLIM"
+      ],
+      "IQA 18000 BTU -EXT": [
+        "INTERVENTION A DOMICILE TYPE 1",
+        "INSTALATION CLIM 12000 CLIM",
+        "VERIFICATION DES FUITES"
+      ],
+      "IQA 24000 BTU -INT": [
+        "INSTALATION CLIM 24000 CLIM"
+      ],
+      "IR-MO20EL NOIR": [
+        "REP. FONCTIONNEMENT",
+        "SUPPORT ASSIETTE MICRO ONDE AM"
+      ],
+      "IR-MO20ME NOIR": [
+        "REP. FONCTIONNEMENT MICRO-ONDE"
+      ],
+      "IR-PA5512-R": [
+        "MOTEUR JUS PRESS",
+        "CHANGE, MOTEUR PETITE-ELECTRO"
+      ],
+      "IRS 138 MINI BAR BLANC": [
+        "EVAPORATEUR REF 138L",
+        "CHARGE DE FREON REF",
+        "COMPRESSEUR REF 138L R600",
+        "FILTRE REF 300L"
+      ],
+      "IVA+ 18000 BTU TROPICAL -INT": [
+        "VERIFICATION DES FUITES",
+        "INTERVENTION A DOMICILE TYPE 1"
+      ],
+      "LCD 32L8E": [
+        "CHANGE, C-ALIM TV",
+        "CARTE ALIMENTATION 32L8E"
+      ],
+      "LED 32E20 HD": [
+        "REPARATION CM+CA TV"
+      ],
+      "LED 32E30 HD BASIC": [
+        "CARTE MERE TV 32E30",
+        "CHANGE, C-MERE TV",
+        "VERIFICATION TV"
+      ],
+      "LED 32E31 HD ANDROID": [
+        "REPARATION FONCTIONNEMENT TV"
+      ],
+      "LED 32E390S": [
+        "REPARATION TV"
+      ],
+      "LED 32F30 HD BASIC": [
+        "DALLE 32F30",
+        "CHANGE, DE DALLE 14-39"
+      ],
+      "LED 32G4010 HD GOOGLE TV GRIS": [
+        "FLASH TV"
+      ],
+      "LED 32W4": [
+        "REPARATION CM+CA TV"
+      ],
+      "LED 32Z58": [
+        "REPARATION CM+CA TV"
+      ],
+      "LED 40C3010 FHD SMART": [
+        "VERIFICATION TV"
+      ],
+      "LED 40C3020 FHD SMART": [
+        "VERIFICATION TV"
+      ],
+      "LED 40D2740": [
+        "VERIFICATION TV",
+        "REPARATION CM+CA TV",
+        "CHANGE, DE DALLE 40-49",
+        "DALLE 40C3010",
+        "REPARATION TV"
+      ],
+      "LED 40E20 FHD": [
+        "LED 40E21",
+        "CHANGE, LED 40"
+      ],
+      "LED 40E2AS DEMO": [
+        "CHANGE, DE DALLE 40-49",
+        "DALLE 40 B100",
+        "CHANGE, LED 40",
+        "LED 40E2AS",
+        "CARTE MERE+ALIM 40E31"
+      ],
+      "LED 40G4010 FHD GOOGLE TV GRIS": [
+        "DALLE 40G4010",
+        "CHANGE, DE DALLE 40-49"
+      ],
+      "LED 40G4030 FHD GOOGLE TV BLUE": [
+        "DALLE 40 B100",
+        "CHANGE, DE DALLE 40-49"
+      ],
+      "LED 43 G7200 UHD": [],
+      "LED 43C3020 FHD SMART": [
+        "VERIFICATION TV",
+        "REPARATION TV",
+        "REPARATION FONCTIONNEMENT TV"
+      ],
+      "LED 43E2": [
+        "LED 43E2",
+        "CHANGE, LED 43"
+      ],
+      "LED 43E30 FHD BASIC": [
+        "CARTE MERE TV 43E30",
+        "CHANGE, C-MERE TV",
+        "DALLE 43G4010",
+        "CHANGE, DE DALLE 40-49"
+      ],
+      "LED 43E31 FHD ANDROID": [
+        "DALLE 43 B100",
+        "CHANGE, DE DALLE 40-49"
+      ],
+      "LED 43E6A FHD ANDROID": [
+        "CHANGE, DE DALLE 40-49",
+        "DALLE 43G4010"
+      ],
+      "LED 43G4010 FHD GOOGLE TV GRIS": [
+        "DALLE 43 B100",
+        "CHANGE, DE DALLE 40-49"
+      ],
+      "LED 43G4030 FHD GOOGLE TV BLUE": [
+        "CARTE MERE TV 43G4030",
+        "DALLE 43G4030",
+        "CHANGE, DE DALLE 40-49"
+      ],
+      "LED 49E700A": [],
+      "LED 49G6 UHD ANDROID": [
+        "REPARATION AFFICHEUR 47-58"
+      ],
+      "LED 50E40 UHD BASIC": [
+        "CARTE MERE TV 50E40",
+        "CHANGE, C-MERE TV"
+      ],
+      "LED 50G3 UHD ANDROID": [],
+      "LED 55 E2 DEMO": [
+        "LED 55E3",
+        "CHANGE, LED 55"
+      ],
+      "LED 55E700 A": [],
+      "LED 55G5010 UHD GOOGLE TV GRIS": [
+        "DALLE 55Q7010",
+        "CHANGE, DE DALLE 50-65"
+      ],
+      "LED 55Q4 UHD ANDROID": [
+        "TRESSE 55G5010 PM",
+        "CHANGE, DE DALLE 50-65",
+        "TRESSE 55G5010 GM",
+        "T-CON 55G5010 MOD01",
+        "RECEPTEUR 55G5010",
+        "MODULE WIFI 58G5010",
+        "DALLE 55 B100",
+        "REPARATION CM+CA TV"
+      ],
+      "LED 55Q7010 UHD GOOGLE TV": [
+        "CHANGE, DE DALLE 50-65",
+        "DALLE 55Q7010"
+      ],
+      "LED 65 AIR PLUS": [
+        "CHANGE, LED 65",
+        "LED 65G7200/G9200"
+      ],
+      "LED 65G3A PRO UHD ANDROID": [
+        "CHANGE, DE DALLE 50-65",
+        "DALLE 65 B100"
+      ],
+      "LED 65G5010 UHD GOOGLE TV GOLD": [
+        "FLASH TV",
+        "CARTE MERE TV 65G5010",
+        "CHANGE, C-MERE TV"
+      ],
+      "LED 65Q7010 UHD GOOGLE TV": [
+        "DALLE 65Q7010",
+        "CHANGE, DE DALLE 50-65"
+      ],
+      "M-48 K": [
+        "VERIFICATION BOUCHAGE CLIM",
+        "VERIFICATION DE GAZ CLIM"
+      ],
+      "N30 WHITE PEARL (4+64GB)": [
+        "BODY N30",
+        "COUVERT N30",
+        "REGLAGE"
+      ],
+      "NEXT P + GOLD": [
+        "REPARATION"
+      ],
+      "NEXT P PRO GRAY": [
+        "REPARATION",
+        "CABLE RESEAU NEXT P (RF CABLE)"
+      ],
+      "NEXT P PRO RED": [
+        "TOUCHE POWER NEXT P PRO",
+        "TOUCHE VOLUME NEXT P PRO",
+        "COUVERT NEXT P PRO",
+        "BATTERIE NEXT P PRO",
+        "REGLAGE"
+      ],
+      "NEXT U BLACK": [
+        "BATTERIE NEXT U (BATTERY MODUL",
+        "CHANGEMENT BATTERIE"
+      ],
+      "PLASTIQUE 12KG": [
+        "REP. FONCTIONNEMENT ML"
+      ],
+      "PLASTIQUE 12KG IWS128F1G GOLD": [
+        "TAMBOUR ML 12KG",
+        "CERCLE ML 12KG",
+        "CHANGE, CERCLE ML",
+        "CABINE ML 12KG INT",
+        "CHANGE, CABINE INT ML"
+      ],
+      "PLASTIQUE 12KG IWS128F1P ROSE": [
+        "MINUTERIE LAVAGE ML 12KG",
+        "CHANGE, MINUTERIE LAVAGE ML"
+      ],
+      "PLASTIQUE 12KG IWS128F1S SILVE": [
+        "REP. FONCTIONNEMENT ML"
+      ],
+      "PLASTIQUE 14KG IWS140F1R ROSE": [
+        "CERCLE TAMBOUR 14KG",
+        "TAMBOUR ML 14KG",
+        "CABINE ML 14KG INT",
+        "CADRON ML IWS140/14KG",
+        "CHANGE, CABINE INT ML",
+        "COUDE VIDANGE ML 14KG"
+      ],
+      "PLASTIQUE 14KG IWS140F2G GOLD": [
+        "REP. FONCTIONNEMENT ML",
+        "MINUTERIE ESSORAGE ML 14KG",
+        "CHANGE, MINUTERIE ESSORAGE ML",
+        "JOINT TAMBOUR ML 12KG",
+        "CHANGE, JOINT TAMBOUR ML",
+        "CROCHET PORTE DROITE ML IWS140",
+        "CHANGE, CERCLE ML",
+        "CROCHET PORTE GAUCHE ML IWS140",
+        "MOTEUR ESSORAGE ML 14KG",
+        "CHANGE, MOTEUR ESSORAGE ML",
+        "CHANGE, TAMBOUR PLASTIQUE ML",
+        "CERCLE TAMBOUR 14KG",
+        "TAMBOUR ML 14KG"
+      ],
+      "QLED 65Q7030 UHD GOOGLE TV GRI": [
+        "DALLE 65Q7030",
+        "CHANGE, DE DALLE 50-65"
+      ],
+      "SBS 610 NF INOX": [
+        "REP. CARTE MERE REF",
+        "FILTRE REF 480E",
+        "CHARGE DE FREON REF",
+        "COMPRESSEUR REF 750L"
+      ],
+      "SIMPLE 1300W 6,5L ROUGE": [
+        "MOTEUR PETRIN IPE-PS1365",
+        "CHANGE, MOTEUR PETRIN"
+      ],
+      "SNOW 10.5KG IWF104BIS": [
+        "CERCLE TAMBOUR SNOW IWF104-AIS",
+        "JOINT PORTE ML10,5 IWF104CIS/C",
+        "CHANGE, JOINT DE PORT ML"
+      ],
+      "SNOW 10.5KG IWF104CIS": [
+        "REP. FONCTIONNEMENT ML"
+      ],
+      "VOX ALPHA PLUS MOCA": [
+        "CHANGE, BATTRIE",
+        "BATTERIE ALPHA+",
+        "CHARGEUR NEXT U",
+        "REGLAGE",
+        "CABLE USB NEXT U"
+      ],
+      "VOX POP PRO DARK GRAY": [
+        "AFFICHEUR VOX POP PRO",
+        "CHANGEMENT AFFICHEUR"
+      ]
+    },
+    "old_products": [
+      "LED 50E40 UHD BASIC",
+      "LED 40E2AS DEMO",
+      "LED 43E31 FHD ANDROID",
+      "LED 65G3A PRO UHD ANDROID",
+      "SNOW 10.5KG IWF104CIS",
+      "LED 49E700A",
+      "LED 32E390S",
+      "LED 40D2740",
+      "LED 65 AIR PLUS",
+      "LED 43 G7200 UHD",
+      "LED 55E700 A",
+      "LED 32E20 HD",
+      "LED 43E6A FHD ANDROID",
+      "LED 43C3020 FHD SMART",
+      "PLASTIQUE 14KG IWS140F2G GOLD",
+      "LED 32E30 HD BASIC",
+      "LED 49G6 UHD ANDROID",
+      "LED 40G4030 FHD GOOGLE TV BLUE",
+      "G8060 BLACK",
+      "LED 55Q4 UHD ANDROID",
+      "LED 32W4",
+      "BCD 400 B BLANC",
+      "LED 32E31 HD ANDROID",
+      "LED 40C3010 FHD SMART",
+      "NEXT P PRO GRAY",
+      "LCD 32L8E",
+      "LED 32Z58",
+      "LED 55 E2 DEMO",
+      "NEXT U BLACK",
+      "NEXT P + GOLD",
+      "I350 GOLD BLACK",
+      "VOX POP PRO DARK GRAY",
+      "ALL IN ONE DUEL CORE",
+      "I350 BLACK GOLD",
+      "VOX ALPHA PLUS MOCA",
+      "NEXT P PRO RED",
+      "IQA 12000 BTU",
+      "PLASTIQUE 12KG IWS128F1G GOLD",
+      "LED 43G4010 FHD GOOGLE TV GRIS",
+      "N30 WHITE PEARL (4+64GB)",
+      "IR-PA5512-R",
+      "LED 50G3 UHD ANDROID",
+      "LED 40E20 FHD",
+      "ECOSMART 13KG GRIS"
+    ],
+    "garantie_values": [
+      "Non",
+      "Oui"
+    ]
+  },
+  "training_examples": []
+}

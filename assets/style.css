@@ -1,0 +1,194 @@
+/* Couleurs principales */
+:root {
+    --orange-iris: #ff6600;
+    --bright-orange: #ff7f00;
+    --dark-black: #111111;
+    --light-black: #222222;
+    --light-gray: #e0e0e0;
+    --white: #ffffff;
+    --black-alpha: rgba(0, 0, 0, 0.85);
+}
+
+/* Corps de page */
+body {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--white);
+    background-color: var(--dark-black);
+}
+
+/* En-tête et polices */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--orange-iris);
+    font-weight: bold;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    color: var(--bright-orange);
+}
+
+/* Styles personnalisés pour les widgets Streamlit */
+.stButton>button {
+    background-color: var(--orange-iris);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: var(--bright-orange);
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.5);
+}
+
+/* Widget de fichier */
+.stFileUploader {
+    border: 2px dashed var(--orange-iris);
+    border-radius: 8px;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.stFileUploader:hover {
+    border-color: var(--bright-orange);
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.3);
+}
+
+/* Personnalisation des tableaux */
+.dataframe {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9em;
+}
+
+.dataframe tbody tr:nth-child(odd) {
+    background-color: var(--light-black);
+}
+
+.dataframe tbody tr:hover {
+    background-color: rgba(255, 102, 0, 0.1);
+}
+
+.dataframe th {
+    background-color: var(--orange-iris);
+    color: var(--white);
+    font-weight: bold;
+    padding: 8px 16px;
+}
+
+/* Barre latérale */
+.sidebar .sidebar-content {
+    background-color: var(--light-black);
+    border-right: 2px solid var(--orange-iris);
+}
+
+/* Chat bot */
+.stChatMessage {
+    background-color: var(--light-black);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 4px solid var(--orange-iris);
+    transition: all 0.3s;
+}
+
+.stChatMessage:hover {
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.2);
+}
+
+/* Boîtes d'information, d'avertissement, d'erreur et de succès */
+.stAlert {
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.stAlert.success {
+    background-color: rgba(0, 128, 0, 0.2);
+    border-left: 4px solid #00C851;
+}
+
+.stAlert.warning {
+    background-color: rgba(255, 154, 0, 0.2);
+    border-left: 4px solid #FF9A00;
+}
+
+.stAlert.error {
+    background-color: rgba(255, 51, 51, 0.2);
+    border-left: 4px solid #FF3333;
+}
+
+.stAlert.info {
+    background-color: rgba(2, 119, 189, 0.2);
+    border-left: 4px solid #0277bd;
+}
+
+/* Cartes personnalisées */
+div.card {
+    background-color: var(--light-black);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+    border-top: 4px solid var(--orange-iris);
+}
+
+/* Logo personnalisé */
+.iris-logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 120px;
+    height: auto;
+}
+
+/* Progress bar */
+.stProgress > div > div {
+    background-color: var(--orange-iris);
+}
+
+/* Séparateur */
+hr {
+    border-color: var(--orange-iris);
+    margin: 24px 0;
+}
+
+/* Style Streamlit elements - selectors might need adjustment based on Streamlit version */
+.stApp {
+    background-color: #121212;
+}
+
+/* DataFrames - Basic styling, might need more specific selectors */
+.stDataFrame {
+    /* Add styling for table headers, cells, etc. */
+}
+
+/* Highlight error rows - This requires Python logic to apply */
+/* This class name 'error-row' isn't automatically applied by streamlit,
+   highlighting usually done by modifying the dataframe before display
+   or using specific components if needed. We will rely on the Error Description column primarily. */
+.error-row {
+    background-color: #4f2019 !important; /* Dark red highlight */
+}
+
+/* Chat input */
+.stTextInput input {
+    background-color: #333333;
+    color: #E0E0E0;
+    border: 1px solid #FF8C00;
+}
+
+/* Ensure table content is readable */
+.stDataFrame table {
+    color: #E0E0E0; /* Ensure table text is light */
+    background-color: #2a2a2a; /* Darker background for table cells */
+}
+
+.stDataFrame th {
+    background-color: #333333; /* Slightly different background for headers */
+    color: #FF8C00; /* Orange headers */
+} 
